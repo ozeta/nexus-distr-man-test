@@ -57,18 +57,18 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>http://127.0.0.1:8081/repository/maven-snapshots/</url>
+            <url>http://192.168.56.101:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexus-releases</id>
-            <url>http://127.0.0.1:8081/repository/maven-releases/</url>
+            <url>http://192.168.56.101:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
     <repositories>
         <repository>
             <id>maven-group</id>
-            <url>http://127.0.0.1:8081/repository/maven-group/</url>
+            <url>http://192.168.56.101:8081/repository/maven-group/</url>
         </repository>
     </repositories>
 </project>
